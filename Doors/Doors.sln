@@ -1,14 +1,35 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{EFEA3114-3EC2-ACD1-62C4-7D4A66F18E58}") = "Doors", "Assembly-CSharp-firstpass.csproj", "{342D0AE5-CE76-F27D-02A8-1EAEB5C65D17}"
+EndProject
+Project("{EFEA3114-3EC2-ACD1-62C4-7D4A66F18E58}") = "Doors", "Assembly-CSharp.csproj", "{44BADF20-D9AE-FF0D-5DE1-E76AD488F8A2}"
+EndProject
+Project("{EFEA3114-3EC2-ACD1-62C4-7D4A66F18E58}") = "Doors", "Assembly-CSharp-Editor.csproj", "{F15B5CD4-5156-BAB3-3656-5A392FD638ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{342D0AE5-CE76-F27D-02A8-1EAEB5C65D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342D0AE5-CE76-F27D-02A8-1EAEB5C65D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342D0AE5-CE76-F27D-02A8-1EAEB5C65D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342D0AE5-CE76-F27D-02A8-1EAEB5C65D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BADF20-D9AE-FF0D-5DE1-E76AD488F8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BADF20-D9AE-FF0D-5DE1-E76AD488F8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BADF20-D9AE-FF0D-5DE1-E76AD488F8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BADF20-D9AE-FF0D-5DE1-E76AD488F8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15B5CD4-5156-BAB3-3656-5A392FD638ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15B5CD4-5156-BAB3-3656-5A392FD638ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15B5CD4-5156-BAB3-3656-5A392FD638ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15B5CD4-5156-BAB3-3656-5A392FD638ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

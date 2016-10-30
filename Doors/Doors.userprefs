@@ -1,12 +1,10 @@
 ﻿<Properties StartupItem="Doors.CSharp.Plugins.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TextBoxManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PortalBehaviour.cs">
     <Files>
       <File FileName="Assets\PortalBehaviour.cs" Line="29" Column="4" />
-      <File FileName="Assets\PlayerController.cs" Line="18" Column="1" />
+      <File FileName="Assets\PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets\camMouseLook.cs" Line="1" Column="1" />
-      <File FileName="Assets\TextImporter.cs" Line="18" Column="1" />
-      <File FileName="Assets\TextBoxManager.cs" Line="34" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

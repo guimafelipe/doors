@@ -34,7 +34,10 @@ public class camMouseLook : MonoBehaviour {
 		mouseLook += smoothV;
 
 		if (foi) {
-			mouseLook = new Vector2 (180f, 0f);
+			float direction;
+			direction = character.transform.eulerAngles.y;
+			Debug.Log (direction);
+			mouseLook.x = direction;
 			foi = false;
 		}
 

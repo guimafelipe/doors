@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Doors lvl 1.unity
+- path: Assets/Doors lvl hard.unity
   isLoaded: 1
   isActive: 1

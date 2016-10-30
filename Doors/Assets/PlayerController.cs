@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	public float speed = 10.0F;
-
+	public bool inPortal = false;
 	// Use this for initialization
 	void Start () {
 		Cursor.lockState = CursorLockMode.Locked;
@@ -21,5 +21,11 @@ public class PlayerController : MonoBehaviour {
 
 		if (Input.GetKeyDown ("escape"))
 			Cursor.lockState = CursorLockMode.None;
+	}
+
+	void OnTriggerEnter(Collider other){
+		if (other.tag == "Portal") {
+			inPortal = true;
+		}
 	}
 }
